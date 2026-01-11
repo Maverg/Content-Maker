@@ -4,7 +4,7 @@ Automated Short-Form Content
 This script takes a source video, randomly extracts a few frames, then creates a short montage video from those frames with fade-in/fade-out transitions and background music. After rendering, it deletes the temporary frames folder.
 
 ## What it does
-1. Loads the video - https://www.youtube.com/watch?v=miXp7gpguJU - if you want this work you have to download this video and upload it yourself, its 1 hour long and took big to put in this repo.
+1. Loads the video - https://www.youtube.com/watch?v=miXp7gpguJU - if you want this work you have to download this video and load it yourself, its 1 hour long and too big to put in this repo.
 2. Randomly selects **5 timestamps** across the video duration
 3. Saves extracted frames as `frame_0.jpg ... frame_4.jpg`
 4. Builds a montage where each frame is shown for ~4.2 seconds with fades
